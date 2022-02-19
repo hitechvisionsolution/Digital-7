@@ -112,7 +112,7 @@
 	.navbar-brand.navbar-bg{
 		width: 25%;
 	}
-
+	
 	.header2 .navbar-brand, .header3 .navbar-brand,
 	.header4 .navbar-brand{
 		padding-right: 0;
@@ -319,8 +319,14 @@
 	}
 	.navbar-brand.navbar-bg img{
 		background-size: contain;
-		width: 160px;
+		width: 200px;
+		margin-top: -8px;
+		margin-left: -4px;
 	}
+	#client-carousel{
+		margin-left: 1rem;
+	}
+
 
 	/* Navigation */
 	ul.navbar-nav > li > a {

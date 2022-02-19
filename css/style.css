@@ -652,7 +652,7 @@ blockquote {
 
 .header-solid{
 	background: #191919;
-	box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2); */
+	box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2); 
 }
 
 .header-solid ul.navbar-nav > li > a{
@@ -676,9 +676,9 @@ blockquote {
 }
 
 .navbar-brand img{
-	float: right;
-	padding: 0 15px;
-
+	width: 240px;
+	margin-top: -.7rem;
+	margin-left: 1.2rem;
 }
 
 
@@ -706,6 +706,32 @@ blockquote {
 
 .navbar-toggle .icon-bar{
 	background: #fff;
+}
+.line-1{
+    position: relative;
+  
+    width: 24em;
+    margin: 0 auto;
+   
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 
 ul.navbar-nav > li > a{
@@ -2206,11 +2232,18 @@ figure.effect-oscar:hover img {
 	border-radius: 3px;
 	display: inline-block;
 	padding: 10px;
+	
 	-webkit-transition: all 350ms;
 	-ms-transition: all 350ms;
 	transition: all 350ms;
 }
-
+.client-carousel .item img{
+	width: 150px;
+	
+}
+#client-carousel{
+	margin-left: 24rem;
+}
 
 /* Twitter
 ================================================== */
